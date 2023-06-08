@@ -1,0 +1,63 @@
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.left-header {
+  display: flex;
+  align-items: center;
+  border: solid;
+  border-width: 3px;
+  border-bottom-width: 15px;
+}
+
+.initials-icon {
+  width: 50px;
+  display: inline-block;
+  padding: 20px;
+}
+
+.header-name {
+  font-size: 4vw;
+  display: inline-block;
+  font-family: Comic Neue, Arial;
+  font-weight: 700;
+  padding-right: 10px;
+}
+
+.header-button {
+  background-color: rgb(255, 255, 255);
+  font-family: Comic Neue, Arial;
+  font-size: 3vw;
+  border-left: none;
+  border-radius: 1px;
+  border-width: 3px;
+  border-bottom-width: 15px;
+  border-color: black;
+  font-weight: 700;
+}
+
+.header-button:hover {
+  background-color: rgb(123, 175, 212);
+  color: white;
+  cursor: pointer;
+  transition-duration: 100ms;
+}
+
+
+.header-button:active {
+  background-color:  rgba(123, 175, 212, 0.803);
+  color: white;
+  cursor: pointer;
+  transition-duration: 100ms;
+  border-color: black;
+}
+
+
+
+.right-header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: right;
+}
+

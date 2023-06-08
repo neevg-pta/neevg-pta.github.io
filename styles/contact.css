@@ -1,0 +1,43 @@
+.contact-me-section {
+  margin-top: 60px;
+  margin-bottom: 30px;
+  margin-left: 12vw;
+  margin-right: 12vw;
+}
+
+.contact-header {
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.message-me-message {
+  margin-left: 15px;
+  margin-bottom: 20px;
+  font-size: 25px;
+  text-decoration: underline;
+  text-decoration-thickness: 6%;
+  font-weight: 300;
+}
+
+.inputs {
+  margin-left: 35px;
+}
+
+.form-label {
+  font-weight: 700;
+  margin-bottom:10px;
+  margin-top: 20px;
+  font-size: 22px;
+}
+
+.name-input, .email-input, .message-input {
+  margin-left: 7px;
+  font-size: 18px;
+  font-family: Comic Neue, Arial;
+  width: 68vw;
+}
+
+.message-input {
+  height: 200px;
+}
