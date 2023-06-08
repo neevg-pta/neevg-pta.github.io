@@ -35,6 +35,11 @@
   border-bottom-width: 15px;
   border-color: black;
   font-weight: 700;
+  height: 100%;
+}
+
+.header-container {
+  height: 100%;
 }
 
 .header-button:hover {
