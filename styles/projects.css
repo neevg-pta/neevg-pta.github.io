@@ -1,0 +1,20 @@
+.project-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 8vw;
+}
+
+.project-header {
+  font-size: 50px;
+  font-weight: 700;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  margin-left: 6vw;
+  margin-right: 6vw;
+}
+
+.project-icon {
+  width: 90%
+}
+
