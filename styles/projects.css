@@ -2,6 +2,8 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-left: 8vw;
+  margin-right: 8vw;
+  text-align: center;
 }
 
 .project-header {
@@ -12,9 +14,22 @@
   margin-top: 50px;
   margin-left: 6vw;
   margin-right: 6vw;
+  justify-items: baseline;
 }
 
 .project-icon {
-  width: 90%
+  width: 90%;
+}
+
+@media (max-width: 825px) {
+  .project-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 826px) {
+  .project-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
 
